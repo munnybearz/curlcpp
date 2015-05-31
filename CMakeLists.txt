@@ -10,6 +10,7 @@ ELSE()
     # Setting up project
     project(CURLCPP)
 
+    SET( CMAKE_CXX_FLAGS  "-fPIC" )
 
     # Add MacPorts
     if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
